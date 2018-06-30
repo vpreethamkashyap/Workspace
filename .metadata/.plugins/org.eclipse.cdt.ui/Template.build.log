@@ -1,0 +1,273 @@
+23:08:51 **** Build of configuration Debug for project Template ****
+make all 
+Building file: ../startup_src/startup_stm32f40_41xxx.S
+Invoking: Cross GCC Assembler
+arm-none-eabi-as -mthumb -mcpu=cortex-m4 -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -o "startup_src/startup_stm32f40_41xxx.o" "../startup_src/startup_stm32f40_41xxx.S"
+Finished building: ../startup_src/startup_stm32f40_41xxx.S
+ 
+Building file: ../src/main.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/stm32f4xx_it.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"src/stm32f4xx_it.d" -MT"src/stm32f4xx_it.o" -o "src/stm32f4xx_it.o" "../src/stm32f4xx_it.c"
+Finished building: ../src/stm32f4xx_it.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/misc.d" -MT"STM32F4xx_StdPeriph_Driver/src/misc.o" -o "STM32F4xx_StdPeriph_Driver/src/misc.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM32_DISCOVERY -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -O0 -g3 -Wall -c -mthumb -mcpu=cortex-m4 -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.d" -MT"STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.o" -o "STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c"
+Finished building: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c
+ 
+Building file: F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm
+Invoking: Cross GCC Assembler
+arm-none-eabi-as -mthumb -mcpu=cortex-m4 -I"C:\Users\V_PREETHAM_KASHYAP\workspace\Template\src" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Include" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\STM32F4xx_StdPeriph_Driver\inc" -I"F:\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\Device\ST\STM32F4xx\Include" -o "STM32F4xx/Source/Templates/TASKING/cstart_thumb2.o" "F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm"
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm: Assembler messages:
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:3: Error: bad instruction `to allow the use of this file for both ARMv6M and ARMv7M,'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:4: Error: bad instruction `we will only use 16-bit Thumb intructions.'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:6: Error: bad instruction `usr/sys mode stack pointer'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:7: Error: bad instruction `symbol required by debugger'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:8: Error: bad instruction `rom to RAM copy table'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:21: Error: non-constant expression in ".if" statement
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:24: Error: non-constant expression in ".if" statement
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:35: Error: bad instruction `anticipate possible ROM/RAM remapping'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:36: Error: bad instruction `by loading the 114eal32program address'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:40: Error: bad instruction `initialize the stack pointer'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:41: Error: bad instruction `make this part of the vector table'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:44: Error: bad instruction `call the clock system intitialization function.'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:47: Error: bad instruction `copy initialized sections from ROM to RAM'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:48: Error: ARM register expected -- `and clear uninitialized data sections in RAM'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:53: Error: bad instruction `load type'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:54: Error: bad instruction `dst address'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:55: Error: bad instruction `src address'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:56: Error: bad instruction `size'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:65: Error: instruction not supported in Thumb16 mode -- `subs r7,r7,#1'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:70: Error: instruction not supported in Thumb16 mode -- `adds r3,r3,#16'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:74: Error: instruction not supported in Thumb16 mode -- `subs r7,r7,#1'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:78: Error: instruction not supported in Thumb16 mode -- `adds r3,r3,#16'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:84: Error: non-constant expression in ".if" statement
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:93: Error: bad instruction `load r10 with end of USR/SYS stack,which is'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:94: Error: bad instruction `needed in case stack overflow checking is on'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:95: Error: symbol `NOTE' is already defined
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:95: Error: bad instruction `use 16-bit instructions only,for ARMv6M'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:101: Error: non-constant expression in ".if" statement
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:105: Error: non-constant expression in ".if" statement
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:109: Error: bad instruction `retrieve argc and argv(default argv[0]==NULL&argc==0)'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:112: Error: bad instruction `call main'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:116: Error: bad instruction `call exit using the return value from main()'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:117: Error: unexpected character ` ' in type specifier
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:117: Error: bad instruction `note. Calling exit will also run all functions'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:118: Error: bad instruction `that were supplied through atexit().'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:121: Error: bad instruction `weak definition'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:126: Error: unknown pseudo-op: `.endsec'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:128: Error: unknown pseudo-op: `.calls'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:129: Error: unknown pseudo-op: `.calls'
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:130: Error: non-constant expression in ".if" statement
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm: Error: end of file inside conditional
+F:/STM32F4xx_DSP_StdPeriph_Lib_V1.6.1/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm:130: Error: here is the start of the unterminated conditional
+STM32F4xx/Source/Templates/TASKING/subdir.mk:15: recipe for target 'STM32F4xx/Source/Templates/TASKING/cstart_thumb2.o' failed
+make: *** [STM32F4xx/Source/Templates/TASKING/cstart_thumb2.o] Error 1
+
+23:10:16 Build Finished (took 1m:24s.803ms)
+

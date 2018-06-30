@@ -1,0 +1,11 @@
+22:28:37 **** Incremental Build of configuration Debug for project FreeRTOS_STM32F103 ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "FreeRTOS_STM32F103.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8881	    180	  19132	  28193	   6e21	FreeRTOS_STM32F103.elf
+Finished building: FreeRTOS_STM32F103.siz
+ 
+
+22:28:37 Build Finished (took 803ms)
+

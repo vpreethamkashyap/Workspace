@@ -1,0 +1,13 @@
+23:13:34 **** Build of configuration Debug for project Test ****
+make all 
+Building file: ../Source/main.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 -MMD -MP -MF"Source/main.d" -MT"Source/main.o" -c -o "Source/main.o" "../Source/main.c"
+In file included from ../Source/main.c:32:0:
+../Source/stm32f4xx_conf.h:44:28: fatal error: stm32f4xx_gpio.h: No such file or directory
+compilation terminated.
+Source/subdir.mk:28: recipe for target 'Source/main.o' failed
+make: *** [Source/main.o] Error 1
+
+23:13:49 Build Finished (took 14s.602ms)
+

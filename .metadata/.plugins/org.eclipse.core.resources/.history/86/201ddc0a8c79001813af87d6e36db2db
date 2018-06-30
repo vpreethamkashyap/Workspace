@@ -1,0 +1,92 @@
+#include <stdio.h>
+
+typedef struct NODE node;
+
+struct node {
+
+    char* key;
+    node* next;
+};
+
+typedef struct {
+
+    long value;
+    node* list;
+
+}element;
+
+element* ARRAY[10] = {
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		},
+		&(element){
+			.value = 0,
+					.list = NULL
+		}
+};
+
+
+void insert(char* string, int value, int index)
+{
+    // Temporary creation
+    element* temp1 = (element*)malloc(sizeof(element));
+
+    // Temporary creation
+    node* temp2 = (node*)malloc(sizeof(node));
+
+    //populate the linked list of the array elements
+    temp2->key = string;
+
+    //now populate the struct of each element in the array
+    temp1->value = value;
+
+    if(ARRAY[index]->list == NULL){
+        temp2->next = NULL;
+        temp1->list = temp2;
+    }
+    else {
+        temp2->next = NULL;
+        temp1->list = ARRAY[index]->list;
+        temp1->list->next = list;
+    }
+
+    ARRHEAD[index] = arr;
+}
+
+int main (void){
+
+
+}

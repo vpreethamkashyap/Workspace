@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Template/startup_src/startup_stm32f40_41xxx.s&apos; to &apos;startup_stm32f40_41xxx.S&apos;" description="Rename resource &apos;startup_stm32f40_41xxx.s&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="startup_src/startup_stm32f40_41xxx.s" name="startup_stm32f40_41xxx.S" stamp="1500260752913" updateReferences="true"/>
+</session>

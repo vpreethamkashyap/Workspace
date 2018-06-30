@@ -1,0 +1,92 @@
+#include <stdio.h>
+
+typedef struct NODE node;
+
+struct node {
+
+    char* key;
+    node* next;
+};
+
+typedef struct {
+
+    long value;
+    node* list;
+
+}element;
+
+element* ARRAY[10] = {
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		},
+		&(element){
+			.value = 0,
+					.list = 0
+		}
+};
+
+
+void insert(char* string, int value, int index)
+{
+    // Temporary creation
+    element* temp1 = (element*)malloc(sizeof(element));
+
+    // Temporary creation
+    NODE* list = (head*)malloc(sizeof(head));
+
+    //populate the linked list of the array elements
+    list->key = string;
+
+    //now populate the struct of each element in the array
+    arr->value = value;
+
+    if(ARRHEAD[index]->list == NULL){
+        list->next = NULL;
+        arr->list = list;
+    }
+    else {
+        list->next = NULL;
+        arr->list = ARRHEAD[index]->list;
+        arr->list->next = list;
+    }
+
+    ARRHEAD[index] = arr;
+}
+
+int main (void){
+
+
+}

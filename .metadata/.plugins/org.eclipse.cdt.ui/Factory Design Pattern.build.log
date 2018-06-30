@@ -1,0 +1,20 @@
+23:54:11 **** Incremental Build of configuration Release for project Factory Design Pattern ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:7:5: warning: second argument of 'int main(int, char*)' should be 'char **' [-Wmain]
+ int main (int argc, char argv[]){
+     ^
+..\main.cpp: In function 'int main(int, char*)':
+..\main.cpp:33:23: warning: 'toy' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  toy->assembleThetoy();
+                       ^
+g++ -O3 -Wall -c -fmessage-length=0 -o Toy.o "..\\Toy.cpp" 
+g++ -o "Factory Design Pattern.exe" Toy.o main.o 
+Toy.o:Toy.cpp:(.rdata$_ZTV3CAR[__ZTV3CAR]+0xc): undefined reference to `CAR::processThetoy()'
+Toy.o:Toy.cpp:(.rdata$_ZTV3CAR[__ZTV3CAR]+0x10): undefined reference to `CAR::testThetoy()'
+C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: Toy.o: bad reloc address 0x10 in section `.rdata$_ZTV3CAR[__ZTV3CAR]'
+C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/ld.exe: final link failed: Invalid operation
+collect2.exe: error: ld returned 1 exit status
+
+23:54:11 Build Finished (took 677ms)
+

@@ -1,0 +1,10 @@
+22:38:08 **** Incremental Build of configuration Debug for project BalancedParenthesesStack ****
+make all 
+'Building target: BalancedParenthesesStack'
+'Invoking: Cross G++ Linker'
+g++  -o "BalancedParenthesesStack"  ./src/BalancedParenthesesStack.o   
+'Finished building target: BalancedParenthesesStack'
+' '
+
+22:38:09 Build Finished (took 981ms)
+
