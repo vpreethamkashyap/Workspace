@@ -1,0 +1,38 @@
+#include "Circle.hpp"
+#include "Rectangle.hpp"
+#include "Square.hpp"
+#include "Shape.hpp"
+
+shape* getShape(const std::string color, const char shape)
+{
+  switch(shape)
+  {
+    case('C'):
+	{
+      shape* instance = new circle(color,10.5);
+      return instance;
+      break;
+	}
+
+    case('S'):
+	{
+      shape* instance = new square(color, 20.5);
+      return instance;
+      break;
+	}
+
+    case('R'):
+	{
+      shape* instance = new rectangle(color, 10.5, 20.5);
+      return instance;
+      break;
+	}
+    default:
+      {
+	shape* instance = 0;
+	return instance;
+	break;
+      }
+  }
+
+}

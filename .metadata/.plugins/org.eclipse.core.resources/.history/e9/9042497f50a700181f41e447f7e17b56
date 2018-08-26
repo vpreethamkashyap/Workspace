@@ -1,0 +1,8 @@
+#include "Circle.hpp"
+
+double circle::area()
+{
+
+  return (3.14f * (radius * radius));
+
+}

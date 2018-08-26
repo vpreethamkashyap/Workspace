@@ -1,0 +1,13 @@
+#include "Rectangle.hpp"
+
+double
+rectangle::area()
+{
+  return (length * width);
+}
+
+std::string
+rectangle::toString()
+{
+
+}

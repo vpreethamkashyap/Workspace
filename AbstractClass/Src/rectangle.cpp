@@ -1,0 +1,15 @@
+#include "Rectangle.hpp"
+
+double
+rectangle::area() const
+{
+  return (length * width);
+}
+
+std::string
+rectangle::toString() const
+{
+
+  return "rectangle type";
+
+}

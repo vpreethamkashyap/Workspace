@@ -1,0 +1,7 @@
+#include "Square.hpp"
+
+double
+square::area() const
+{
+  return length * length;
+}

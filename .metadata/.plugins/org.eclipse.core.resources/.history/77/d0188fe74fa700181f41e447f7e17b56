@@ -1,0 +1,59 @@
+#ifndef SHAPE_HPP_
+#define SHAPE_HPP_
+
+#include <iostream>
+
+class shape
+{
+
+private:
+
+  const std::string color;
+
+public:
+
+  /**
+   * Constructor
+   */
+  shape(const std::string& color):color(color)
+{
+    std::cout << "Shape class constructor" << std::endl;
+}
+
+  /**
+   * Destructor
+   */
+  virtual ~shape()
+  {
+    std::cout << "Shape class destructor" << std::endl;
+  }
+
+
+  /**
+   *
+   * @return
+   */
+  virtual std::string getColor(void) const = 0;
+
+  /**
+   *
+   * @return
+   *
+   * double area() - a const pure virtual member function that computes and returns the object's area.
+   * It must be overridden in each derived class.
+   */
+  virtual double area() const = 0;
+
+
+  /**
+   *
+   * @return
+   * string toString() - a const pure virtual member function that returns the shape's description (color, type, measurements, and area) as a std::string.
+   * It must be overridden in each derived class.  See the example output below for the format.
+   */
+  virtual std::string toString(void) const = 0;
+};
+
+
+#endif
+

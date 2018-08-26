@@ -1,5 +1,5 @@
-19:49:20 **** Incremental Build of configuration Debug for project Hashing ****
+00:22:06 **** Incremental Build of configuration Debug for project AbstractClass ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Hashing.o "..\\Hashing.c" 
-g++ -o Hashing.exe Hashing.o 
-Info: Nothing to build for Hashing
+g++ "-IC:\\Users\\V_PREETHAM_KASHYAP\\workspace\\AbstractClass\\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o AbstractClass.exe "Src\\circle.o" "Src\\getShape.o" "Src\\rectangle.o" "Src\\square.o" main.o 
+Info: Nothing to build for AbstractClass

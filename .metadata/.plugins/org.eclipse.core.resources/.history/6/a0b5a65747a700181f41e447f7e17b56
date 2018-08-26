@@ -1,0 +1,23 @@
+#ifndef SHAPE_HPP_
+#define SHAPE_HPP_
+
+class shape
+{
+
+public:
+
+  /**
+   * Constructor
+   */
+  shape();
+
+  /**
+   * Destructor
+   */
+  virtual ~shape();
+
+};
+
+
+#endif
+

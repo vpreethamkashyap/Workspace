@@ -1,0 +1,57 @@
+#ifndef SQUARE_HPP_
+#define SQUARE_HPP_
+
+#include "Shape.hpp"
+
+/**
+ * Square class with one private double instance variable representing the side length,
+ * with a constructor and overriding member functions for area() and toString().
+ */
+
+class square
+{
+private:
+
+  /**
+   * represents the side length
+   */
+  double length;
+
+public:
+
+  /**
+   * square derived class constructor
+   * @param color
+   * @param radius
+   */
+  square(const std::string& color, double radius):
+    radius(radius)
+{
+    std::cout << "square class constructor" << std::endl;
+}
+
+  /**
+   *
+   */
+  ~square()
+  {
+    std::cout << "square class destructor" << std::endl;
+  }
+
+  /**
+   *
+   * @return
+   * this overriding member function computes and returns the square object's area value.
+   */
+  double area();
+
+  /**
+   *
+   * @return
+   * this overriding member function returns the Circle object's description (color, type, measurements, and area).
+   */
+  std::string toString();
+
+};
+
+#endif

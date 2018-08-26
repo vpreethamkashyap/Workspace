@@ -1,0 +1,14 @@
+#include "Circle.hpp"
+#include "Rectangle.hpp"
+#include "Square.hpp"
+#include "Shape.hpp"
+
+shape* getShape(const std::string color, const char shape)
+{
+  switch(shape)
+  {
+    case('C'):
+	return (new circle(color,10.5));
+  }
+
+}

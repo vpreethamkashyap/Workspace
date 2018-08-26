@@ -1,0 +1,10 @@
+#ifndef RECTANGLE_HPP_
+#define RECTANGLE_HPP_
+
+/**
+ * Create a Rectangle class with double instance variables representing the width and length,
+ * with a constructor and overriding member functions for area() and toString().
+ */
+
+
+#endif

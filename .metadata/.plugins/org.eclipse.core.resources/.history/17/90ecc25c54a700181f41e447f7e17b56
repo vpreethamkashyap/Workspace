@@ -1,0 +1,14 @@
+#include "Shape.hpp"
+#include <iostream>
+extern shape* getShape(const std::string color, const char s);
+
+int main()
+{
+
+  // Client driver code
+
+  //shape* circle;
+
+  return 0;
+
+}

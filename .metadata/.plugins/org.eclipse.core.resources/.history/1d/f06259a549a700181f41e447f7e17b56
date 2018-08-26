@@ -1,0 +1,69 @@
+#ifndef SHAPE_HPP_
+#define SHAPE_HPP_
+
+#include <iostream>
+
+class shape
+{
+
+private:
+
+  const std::string color;
+
+public:
+
+  /**
+   * Constructor
+   */
+  shape(const std::string& color):color(color)
+{
+
+}
+
+  /**
+   * Destructor
+   */
+  virtual ~shape();
+
+  /**
+   *
+   * @param x
+   * @param y
+   */
+  virtual void setArea(int x, int y) = 0;
+
+  /**
+   *
+   * @return
+   */
+  virtual int getArea() = 0;
+
+  /**
+   *
+   * @param
+   */
+  virtual void setType(std::string) = 0;
+
+  /**
+   *
+   * @return
+   */
+  virtual std::string getType(void) = 0;
+
+  /**
+   *
+   * @param x
+   * @param y
+   */
+  virtual void setVolume(int x, int y) = 0;
+
+  /**
+   *
+   */
+  virtual void getColor(void) const = 0;
+
+};
+
+
+#endif
+

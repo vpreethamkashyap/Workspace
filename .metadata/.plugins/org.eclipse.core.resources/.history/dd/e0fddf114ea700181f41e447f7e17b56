@@ -1,0 +1,11 @@
+#ifndef SQUARE_HPP_
+#define SQUARE_HPP_
+
+#include "Shape.hpp"
+
+/**
+ * Square class with one private double instance variable representing the side length,
+ * with a constructor and overriding member functions for area() and toString().
+ */
+
+#endif

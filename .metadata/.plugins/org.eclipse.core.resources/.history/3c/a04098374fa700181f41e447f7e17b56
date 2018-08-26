@@ -1,0 +1,37 @@
+#ifndef RECTANGLE_HPP_
+#define RECTANGLE_HPP_
+
+/**
+ * Create a Rectangle class with double instance variables representing the width and length,
+ * with a constructor and overriding member functions for area() and toString().
+ */
+
+class rectangle : public shape
+{
+private:
+
+  /**
+   * representing width and length
+   */
+  double width, length;
+
+public:
+
+  /**
+   *
+   * @param color
+   * @param width
+   * @param length
+   */
+  rectangle(const std::string& color, double width, double length):
+    width(width),
+    length(length)
+{
+    std::cout << "rectangle class constructor" << std::endl;
+}
+
+
+
+};
+
+#endif

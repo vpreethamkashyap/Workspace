@@ -1,0 +1,6 @@
+#ifndef CIRCLE_HPP_
+#define CIRCLE_HPP_
+
+#include "Shape.hpp"
+
+#endif
